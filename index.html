@@ -99,10 +99,11 @@
         </p>
       </article>
       <article>
-        <h3>Direitos na Demissão</h3>
+        <h3>Direitos do consumidor</h3>
         <p>
-          Em caso de demissão, você tem direitos como aviso prévio, férias e
-          FGTS. Consulte um advogado para garantir o que é seu.
+          Conhecer esses direitos capacita o consumidor a exigir o cumprimento
+          do que foi prometido e a se defender contra abusos, garantindo uma
+          relação de consumo mais justa e transparente.
         </p>
       </article>
       <article>
@@ -139,11 +140,7 @@
 
     <section id="formulario">
       <h2>Contato</h2>
-      <form
-        action="mailto:cartasdojoao@gmail.com"
-        method="post"
-        enctype="text/plain"
-      >
+      <form id="my-form" action="https://formspree.io/f/mldqabeb" method="POST">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required />
 
@@ -151,7 +148,12 @@
         <input type="tel" id="telefone" name="telefone" required />
 
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="additional-name"
+        />
 
         <label for="descricao">Breve Descrição do Caso:</label>
         <textarea id="descricao" name="descricao" rows="4"></textarea>
@@ -165,5 +167,6 @@
         &copy; 2025 João Zanata Neto - Advogado. Todos os direitos reservados.
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
