@@ -15,9 +15,23 @@ header {
   padding: 50px 20px;
 }
 
+hr.linha-acima,
+hr.linha-abaixo {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 20px 0;
+}
+
 header h1 {
   margin: 0;
   font-size: 2.5em;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.6em;
+  font-weight: normal;
 }
 
 header p {
@@ -59,6 +73,12 @@ section {
 #cta,
 #formulario {
   margin-bottom: 40px;
+}
+
+#problemas ul,
+#beneficios ul {
+  list-style-type: circle;
+  padding-left: 20px;
 }
 
 #areas .areas-grid {
