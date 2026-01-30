@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
 body {
   font-family: "EB Garamond", serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
   color: #3c3728;
-  background-color: #e6d69d;
+  background-color: #e6dbb5;
 }
 
 header {
@@ -88,14 +89,16 @@ section {
 }
 
 .area {
-  background-color: #e6b500;
+  background-color: #917c30;
+  color: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #conteudo article {
-  background-color: #e6b500;
+  background-color: #917c30;
+  color: #fff;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -164,10 +167,12 @@ footer {
   header h1 {
     font-size: 2em;
   }
+
   .cta-button {
     padding: 12px 25px;
     font-size: 1em;
   }
+
   section {
     padding: 20px 10px;
   }
