@@ -77,13 +77,12 @@ section {
 }
 
 #comodidades ul {
-  text-indent: 20px;
-  list-style-type: none;
+  list-style-type: square;
   padding-left: 20px;
 }
 
 #beneficios ul {
-  list-style-type: none;
+  list-style-type: square;
   padding-left: 20px;
 }
 
